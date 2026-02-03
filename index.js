@@ -11,7 +11,8 @@ app.get("/cursos", (req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.json([
     { id: 1, nombre: "Programación" },
-    { id: 2, nombre: "Bases de Datos" }
+    { id: 2, nombre: "Bases de Datos" },
+    { id: 3, nombre: "Sitios" }
   ]);
 });
 
